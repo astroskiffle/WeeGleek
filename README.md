@@ -8,6 +8,9 @@ When you need a lightning-fast, no-nonsense browsing experience from an image vi
 
 Just your local image files, instantly.
 
+<img width="850" height="610" alt="Gleek" src="https://github.com/user-attachments/assets/2e560ffa-c4f4-445d-a78b-a5000f53434d" />
+
+
 ---
 
 ## ✨ Key Features
