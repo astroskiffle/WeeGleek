@@ -34,7 +34,7 @@ Just your image files, instantly.
 | **Open an image** | `Ctrl` + `O`, or drag and drop |
 
 
-### Installation
+## 🛠️ Installation
 
 WeeGleek is portable and requires no complex installation processes.
 
@@ -43,7 +43,7 @@ WeeGleek is portable and requires no complex installation processes.
 3. Run `WeeGleek.exe` (Windows) or the binary executable for your specific platform.
 
 
-## 🛠️ Contributing
+##  Contributing
 
 Contributions are welcome! If you find a bug or have a suggestion to improve performance or core viewing functionality, please feel free to open an issue or submit a pull request. 
 
