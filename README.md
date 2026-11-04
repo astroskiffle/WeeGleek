@@ -2,7 +2,7 @@
 
 **WeeGleek is a lightweight, 100% offline desktop image viewer built for speed and complete user privacy.** 
 
-If you need a lightning-fast, no-nonsense browsing experience from an image viewer, but want absolute certainty that your data never leaves your local machine, WeeGleek is built for you. 
+If you need a lightning-fast, no-nonsense browsing experience from an image viewer, but want peace of mind that your data never leaves your local machine, WeeGleek is built for you. 
 
 🚫 No cloud dependencies.🚫 No telemetry or tracking. 🚫 No bloated features. 
 
