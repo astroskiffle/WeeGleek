@@ -12,7 +12,7 @@ Just your image files, instantly.
 
 ## ✨ Key Features
 
-* **Lightning Fast:** Optimized for near-instant launch times and seamless navigation through large directories of high-resolution images.
+* **Fast:** Optimized for near-instant launch times and seamless navigation through large directories of high-resolution images.
 * **100% Offline:** Zero internet permissions requested or required. 
 * **Absolute Privacy:** No tracking, no phone-home telemetry, and no account creation. Your data remains entirely yours.
 * **Zero Bloat:** Rejects unnecessary features like cloud syncing, integrated social media sharing, or heavy editing suites to maintain a minimal resource footprint.
