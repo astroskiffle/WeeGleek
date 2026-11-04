@@ -6,7 +6,7 @@ When you need a lightning-fast, no-nonsense browsing experience from an image vi
 
 🚫 No cloud dependencies.🚫 No telemetry or tracking. 🚫 No bloated features. 
 
-Just your image files, instantly.
+Just your local image files, instantly.
 
 ---
 
