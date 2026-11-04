@@ -43,6 +43,12 @@ WeeGleek is portable and requires no complex installation processes.
 3. Run `WeeGleek.exe` (Windows) or the binary executable for your specific platform.
 
 
+## Building from Source (Windows)
+
+You can build WeeGleek.exe using the native C# compiler built into Windows.
+Run the included build.bat file to compile the source code in Program.cs:
+
+
 ##  Contributing
 
 Contributions are welcome! If you find a bug or have a suggestion to improve performance or core viewing functionality, please feel free to open an issue or submit a pull request. 
