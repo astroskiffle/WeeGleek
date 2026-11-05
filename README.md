@@ -54,6 +54,8 @@ Run the included build.bat file to compile the source code in Program.cs:
 ## Webp Support?
 Adding Webp support would break the single-exe goal of the app, and would require shipping an extra DLL or unpack one at runtime, and unpacking is something antivirus engines dislike. Image decoders are a prime attack target, and libwebp had a heap overflow in 2023 (CVE-2023-4863) that was exploited in the wild. That’s a security risk, not a privacy one, but it matters for a viewer that opens files from anywhere.
 
+WeeGleek is written in C#, a memory-safe language, meaning the viewer natively mitigates a vast class of buffer overflow exploits. Introducing a raw C library like libwebp nullifies this safety advantage by exposing the app's memory space to unmanaged heap overflows like CVE-2023-4863.
+
 ##  Contributing
 
 Contributions are welcome! If you find a bug or have a suggestion to improve performance or core viewing functionality, please feel free to open an issue or submit a pull request. 
