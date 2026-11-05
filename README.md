@@ -58,7 +58,7 @@ Contributions are welcome! If you find a bug or have a suggestion to improve per
 
 Please note that feature requests adding network connectivity, cloud storage, or heavy editing tools will be respectfully declined to keep the project true to its core philosophy.
 
-## False Positive from a Virus Checker
+## False Positive
 Reasons the WeeGleek.exe binary might produce a false positive result from a virus checker. 
 
 The compiled file  has no version info, a company or product name, an icon or a manifest, and the exe is unsigned and brand new. ML engines score that kind of anonymous binary higher, and I think it’s the biggest factor for giving a false positive alert.
