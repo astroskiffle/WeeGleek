@@ -61,6 +61,12 @@ WeeGleek sticks to the formats Windows' built-in GDI+ decoder handles (JPEG, PNG
 * **Native code either way, but a different patch channel.** WeeGleek's own code is C# (memory-safe), but GDI+ is native code too and has had serious parsing bugs, from [MS04-028](https://docs.microsoft.com/en-us/security-updates/securitybulletins/2004/ms04-028) (2004) to [CVE-2025-53766](https://nvd.nist.gov/vuln/detail/CVE-2025-53766) (2025). The difference is servicing: GDI+ is patched through regular Windows updates; a bundled `libwebp` is not.
 * **Alternatives were also considered.** Using a WebP codec installed on the PC (via the Windows Imaging Component) depends on a separately installed native codec that behaves differently across machines. A pure managed decoder would avoid native code, but would be a substantial new component to write, test and maintain.
 
+## Other Unsupported Formats
+
+* **EMF/WMF:** two of the 2025 GDI+ flaws were in metafile (EMF) record processing, so metafiles are a parser area to stay out of. 
+* **SVG:** it can reference external resources, which clashes with “offline”, and rendering needs a big engine.
+* **AVIF, HEIC, JPEG XL:** their decoders are huge, and the Windows route needs separately installed native codecs.
+
 ##  Contributing
 
 Contributions are welcome! If you find a bug or have a suggestion to improve performance or core viewing functionality, please feel free to open an issue or submit a pull request. 
