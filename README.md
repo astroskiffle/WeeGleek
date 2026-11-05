@@ -51,6 +51,8 @@ WeeGleek is portable and requires no complex installation processes.
 You can build WeeGleek.exe using the native C# compiler built into Windows.
 Run the included build.bat file to compile the source code in Program.cs:
 
+## Webp Support?
+Adding Webp support would break the single-exe goal of the app, and would require shipping an extra DLL or unpack one at runtime, and unpacking is something antivirus engines dislike. Image decoders are a prime attack target, and libwebp had a heap overflow in 2023 (CVE-2023-4863) that was exploited in the wild. That’s a security risk, not a privacy one, but it matters for a viewer that opens files from anywhere.
 
 ##  Contributing
 
